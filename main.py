@@ -1,5 +1,11 @@
-# Print do nome completo
-print('Alexandre Matos')
+nome = 'Alexandre Matos'
+idade = 47
+altura = 1.62
+mensagem = 'Bom dia'
+professor = True
 
-# Print da idade
-print(19)
+print(type(nome))
+print(type(idade))
+print(type(altura))
+print(type(mensagem))
+print(type(professor))
