@@ -1,10 +1,4 @@
-num1 = 10
-num2 = 5
+preco = float(input("Digite o Preço do produto: "))
+desconto = float(input("Digite o desconto dado: "))
 
-print (num1 + num2)
-print (num1 - num2)
-print (num1 * num2)
-print (num1 / num2)
-print (num1 // num2)
-print (num1 % num2)
-print (num1 ** num2)
+print(f'O valor com desconto aplicado é R${preco - (preco * (desconto / 100))}')
