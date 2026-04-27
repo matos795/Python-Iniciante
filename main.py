@@ -1,11 +1,4 @@
-nome = 'Alexandre Matos'
-idade = 47
-altura = 1.62
-mensagem = 'Bom dia'
-professor = True
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
 
-print(type(nome))
-print(type(idade))
-print(type(altura))
-print(type(mensagem))
-print(type(professor))
+print(f"Olá, {nome}! Daqui 5 anos você terá {idade + 5} anos de idade.")
