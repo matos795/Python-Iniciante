@@ -1,4 +1,10 @@
-nome = input("Digite seu nome: ")
-idade = int(input("Digite sua idade: "))
+num1 = 10
+num2 = 5
 
-print(f"Olá, {nome}! Daqui 5 anos você terá {idade + 5} anos de idade.")
+print (num1 + num2)
+print (num1 - num2)
+print (num1 * num2)
+print (num1 / num2)
+print (num1 // num2)
+print (num1 % num2)
+print (num1 ** num2)
